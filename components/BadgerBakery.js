@@ -180,7 +180,7 @@ export default function BadgerBakery() {
         if(count === 1){
             setDecButton(true);
         }
-        if(count === Object.values(goods)[pg][`upperBound`] - 1){
+        if(count === Object.values(goods)[pg][`upperBound`]){
             setIncButton(false);
         }
         changeCount(Object.keys(goods)[pg], count-1)
