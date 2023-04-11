@@ -69,7 +69,9 @@ export default function BadgerBakery() {
         }).then(
             setFlag(1),
             setCount(0),
-            setTotal(0)
+            setTotal(0),
+            setIncButton(false),
+            setDecButton(true)
         );
     } 
 
